@@ -32,7 +32,6 @@ namespace WebApiSQLServer_N2L4.Controllers
             _context = context;
             _configuration = configuration;
             _protector = protector.CreateProtector(_configuration["ProtectionKey"]);
-
             _hash = hash;
         }
 
