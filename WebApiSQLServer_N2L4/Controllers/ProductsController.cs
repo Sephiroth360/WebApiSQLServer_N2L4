@@ -141,5 +141,12 @@ namespace WebApiSQLServer_N2L4.Controllers
         {
             return _hash.VerifyHash(password);
         }
+
+        // GET: api/Products
+        [HttpGet("Test")]
+        public ActionResult<string> Gettest()
+        {
+            return "HolaMundo";
+        }
     }
 }
