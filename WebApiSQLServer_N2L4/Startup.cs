@@ -86,13 +86,13 @@ namespace WebApiSQLServer_N2L4
 
             app.UseRewriter(options);
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthentication();
 
-            //app.UseCors();
+            app.UseCors();
 
             app.UseAuthorization();
 

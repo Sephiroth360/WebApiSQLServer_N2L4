@@ -18,7 +18,7 @@ namespace WebApiSQLServer_N2L4.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[EnableCors("PermitirApiRequest")]
+    [EnableCors("PermitirApiRequest")]
     //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrador")]
     public class ProductsController : ControllerBase
     {
